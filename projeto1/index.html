@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Curso bootstrap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--bootstrap css-->
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+		<!--HTML5 compativel com IE8-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+		<style type="text/css">
+			.container {
+				max-width: 940px;
+			}
+			.show-grid [class^="col-"] {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: #eee;
+				border: 1px solid #ddd;
+				background-color: rgba(86, 61, 124,.15);
+				border: 1px solid rgba(86, 61, 124,.2);
+			}
+			.row {
+				margin-bottom: 20px;
+			}
+		</style>
+ 	</head>
+
+ 	<body>
+ 		<div class="container">
+ 			<div class="row show-grid">
+ 				<div class="col-md-12">
+ 					<h1>Meu logo tipo</h1>
+ 				</div>
+ 			</div>
+ 			<div class="row show-grid">
+ 				<div class="col-md-6 col-xs-6 col-sm-12">Bloco1</div>
+ 				<div class="col-md-6 col-xs-6 col-sm-12">Bloco2</div>
+ 			</div>
+ 			<div class="row show-grid">
+ 				<div class="col-md-4 col-sm-5">Bloco 1</div>
+ 				<div class="col-md-4 col-sm-5 col-sm-offset-2 col-md-offset-4">Bloco 2</div>
+ 			</div>
+ 			<div class="row show-grid">
+ 				<div class="col-md-4">Bloco 1</div>
+ 				<div class="col-md-4">Bloco 2</div>
+ 				<div class="col-md-4">Bloco 3</div>
+ 			</div>
+ 			<div class="row show-grid">
+ 				<div class="col-md-6 col-xs-6">
+ 					Bloco 1
+ 					<div class="row">
+ 						<div class="col-md-6 col-xs-6 col-sm-12">Bloco 1.A</div>
+ 						<div class="col-md-6 col-xs-6 col-sm-12">Bloco 1.B</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-6">
+ 					Bloco 2
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!--arquivo jquery-->
+ 		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+ 		<!--arquivo js do bootstrap-->
+ 		<script src="js/bootstrap.js"></script>
+ 	</body>
+</html>
