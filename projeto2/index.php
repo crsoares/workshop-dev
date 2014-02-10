@@ -91,31 +91,86 @@
             </div><!-- Fim do menu -->
             
             <div id="slide" class="row">
-                <div id="myCarrousel" class="carousel slide">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarrousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarrousel" data-slide-to="1"></li>
-                        <li data-target="#myCarrousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="media-object img-rounded" src="http://placehold.it/1170x350/B7394C">
+                <div class="col-md-12">
+                    <div id="myCarrousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarrousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarrousel" data-slide-to="1"></li>
+                            <li data-target="#myCarrousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="active item">
+                                <img class="media-object img-rounded" src="http://placehold.it/1170x350/B7394C">
+                            </div>
+                            <div class="item">
+                                <img class="media-object img-rounded" src="http://placehold.it/1170x350/3895B8">
+                            </div>
+                            <div class="item">
+                                <img class="media-object img-rounded" src="http://placehold.it/1170x350/BAB436">
+                            </div>
                         </div>
-                        <div class="item">
-                            <img class="media-object img-rounded" src="http://placehold.it/1170x350/3895B8">
-                        </div>
-                        <div class="item active">
-                            <img class="media-object img-rounded" src="http://placehold.it/1170x350/BAB436">
-                        </div>
+                        <a class="left carousel-control" href="#myCarrousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarrousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
                     </div>
-                    <a class="left carousel-control" href="#myCarrousel" data-slide="prev">
-                        <span class="icon-prev"></span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarrousel" data-slide="next">
-                        <span class="icon-next"></span>
-                    </a>
                 </div>
             </div>
+            
+            <div class="row" id="noticias">
+                <div class="col-md-4">
+                    <h2>Título da Notícia</h2>
+                    <p>
+                        <img src="img/fone.png" class="img-responsive pull-left">
+                        Donec id elit non mi porta 
+                        <a href="#" rel="tooltip" data-original-title="Exemplo de Tooltip">gravida</a>
+                        at eget metus. 
+                       Fusce dapibus, tellus ac cursus commodo, tortor 
+                       mauris condimentum nibh, ut fermentum massa justo 
+                       sit amet risus. Etiam porta sem malesuada magna 
+                       mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="#">Mais Detalhes &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Titulo da Noticia</h2>
+                    <p>
+                        <img src="img/grana.png" class="img-responsive pull-left">
+                        Donec id elit non mi porta gravida at eget metus. 
+                       Fusce dapibus, tellus ac cursus commodo, tortor 
+                       mauris condimentum nibh, ut fermentum massa justo 
+                       sit amet risus. Etiam porta sem malesuada magna 
+                       mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="#">Mais detalher &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Tititulo da Noticia</h2>
+                    <p>
+                        <img src="img/livro.png" class="img-responsive pull-left" >
+                        Donec id elit non mi porta gravida at eget metus. 
+                       Fusce dapibus, tellus ac cursus commodo, tortor 
+                       mauris condimentum nibh, ut fermentum massa justo 
+                       sit amet risus. Etiam porta sem malesuada magna 
+                       mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="#">Mais detalhes &raquo;</a>
+                    </p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <footer>
+                <p>&copy; Curso de Bootstrap 2013 - Todos os direitos reservados.</p>
+            </footer>
             
         </div><!-- Fim do container -->
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -125,6 +180,7 @@
         <script type="text/javascript">
             $(function(){
                 $("[rel='popouver']").popover();
+                $("[rel='tooltip']").tooltip();
             });
         </script>
     </body>

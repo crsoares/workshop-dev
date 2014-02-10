@@ -5,3 +5,22 @@
 .row {
     margin-bottom: 20px;
 }
+
+.pull-left {
+    margin-right: 10px;
+}
+
+ul.nav-tabs {
+    margin-bottom: 10px;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.flutuar-ico {
+    float: left;
+    margin-right: 5px;
+}
