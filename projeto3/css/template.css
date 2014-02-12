@@ -2,17 +2,12 @@
     max-width: 100%;
 }
 
-#icones-dashboard .bloco-icone {
-    border: 1px solid #E4E4E4;
-    padding: 0 20px 20px 20px;
+.texto-bloco {
+    font-size: 10px;
 }
 
-#icones-dashboard .bloco-icone h4 {
-    border-bottom: 1px solid #E4E4E4;
-    padding-bottom: 10px;
-}
-
-#icones-dashboard .bloco-icone .texto-bloco {
-    margin-left: 10px;
-    font-size: 16px;
-}
+/*Menu vestical*/
+.glyphicon { margin-right: 10px; }
+.panel-body { padding: 0px; }
+.panel-body table tr td { padding-left: 15px; }
+.panel-body .table { margin-bottom: 0px; }
